@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import logo from "../assets/logo.png";
+import { CiGlobe } from "react-icons/ci";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faAngleDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [navLinksOpen, setNavLinksOpen]
@@ -56,7 +57,11 @@ const Navbar = () => {
           </div>
         </div>
         <div>
-          <FontAwesomeIcon icon={faGlobe} className="text-2xl md:inline-block hidden" />
+
+          {/* Added react icon instead of FontAwesome because the color of that icon was dark and CiGlobe is accurate for the given design, so I chose react icon for the globe */}
+
+          <CiGlobe className="text-2xl md:inline-block hidden ml-3" />
+
           <button className="rounded-[25px] border border-blue-500 text-blue-400 pl-7 pr-7 p-2 text-[15px] mx-3 hover:text-white hover:bg-blue-400">Sign In</button>
           <FontAwesomeIcon
             icon={faBars}
