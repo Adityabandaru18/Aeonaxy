@@ -1,1 +1,1 @@
-Pricing PAge Design
+Pricing Page Design
