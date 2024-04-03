@@ -14,7 +14,7 @@ const Body = () => {
 
             <div className='w-[80%] m-auto'>
                 <div className='mt-24 w-full relative overflow-x-scroll no-scrollbar py-20 bottom-12'>
-                    <table className='border-collapse border-gray-500 font-light '>
+                    <table className='border-collapse border-gray-500 font-light w-full'>
                         <tr>
                             <td className='border'> </td>
                             <td className='td'>
