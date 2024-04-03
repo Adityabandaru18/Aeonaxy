@@ -7,6 +7,15 @@ This is a Static pricing page designed using React and Tailwind CSS. The pricing
 - Designed using React for component-based architecture.
 - Styled using Tailwind CSS for rapid UI development and responsiveness.
 - Fully responsive layout ensures compatibility with different screen sizes and resolutions.
+  
+ ## Additional Requirements
+
+**Icons:** Fontawesome.
+
+**Images:** Unsplash.
+
+**AI Suggestions:** Claude AI.
+
 
 ## Installation
 
