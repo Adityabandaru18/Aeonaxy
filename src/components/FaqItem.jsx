@@ -11,7 +11,7 @@ const FaqItem = ({ question, answer }) => {
   <FontAwesomeIcon icon={faAngleDown} />
 
   return (
-    <div>
+    <div className='cursor-pointer'>
       <div className='h-[1px] bg-gray-300 mt-10'></div>
       <div onClick={toggleAnswer} className='my-5 text-[16px] font-normal font-sans flex flex-row justify-between'>
         <div>

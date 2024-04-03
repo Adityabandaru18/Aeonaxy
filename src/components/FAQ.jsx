@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { data } from "../assets/faqs.js";
 import FaqItem from './FaqItem.jsx';
 import "./styles.css";

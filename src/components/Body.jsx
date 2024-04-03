@@ -6,6 +6,8 @@ import image3 from "../assets/image3.png";
 import "../styles.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
+
 const Body = () => {
     return (
         <>
@@ -74,7 +76,9 @@ const Body = () => {
                         <tr>
 
                             <td className="td1">
+                                
                                 Custom domain
+                                <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
                             </td>
 
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
@@ -85,6 +89,7 @@ const Body = () => {
                         <tr>
                             <td className='td1'>
                                 Free domain for 1 year
+                                <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
 
                             </td>
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
@@ -96,6 +101,8 @@ const Body = () => {
                         <tr>
                             <td className='td1'>
                                 Band Width
+                                <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+
                             </td>
                             <td className='td2'>Unlimited</td>
                             <td className='td2 bg-gray-100'>Unlimited</td>
@@ -103,21 +110,27 @@ const Body = () => {
                             <td className='td2'>1GB</td>
                         </tr>
                         <tr>
-                            <td className='td1'>Storage space</td>
+                            <td className='td1'>Storage space
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'>35 GB</td>
                             <td className='td2 bg-gray-100'>10 GB</td>
                             <td className='td2'>3 GB</td>
                             <td className='td2'>500 MB</td>
                         </tr>
                         <tr>
-                            <td className='td1'>Video hours</td>
+                            <td className='td1'>Video hours
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'>5 hours</td>
                             <td className='td2 bg-gray-100'>1 hour</td>
                             <td className='td2'>30 minutes</td>
                             <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
                         </tr>
                         <tr>
-                            <td className='td1'>Yandex voucher</td>
+                            <td className='td1'>Yandex voucher
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
                             <td className='td2 bg-gray-100'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
                             <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
@@ -129,6 +142,8 @@ const Body = () => {
                                     Site Booster app
                                     <span className='block text-[1rem] font-light text-gray-400'>Free for 1 year</span>
                                 </div>
+                                <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500 bottom-8'/>
+
                               
                             </td>
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
@@ -141,6 +156,8 @@ const Body = () => {
                                 <div>
                                     Visitor Analytics App
                                     <span className='block text-[1rem] font-light text-gray-400'>Free for 1 year</span>
+                                    <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500 bottom-8'/>
+
                                 </div>
                                 <div>
 
@@ -150,10 +167,12 @@ const Body = () => {
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
                             <td className='td2 bg-gray-100'><FontAwesomeIcon icon={faCheck} className='m-auto' /><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
                             <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
-                            <td className='td2'><div className='h-[2px] w-4 bg-gray-900 m-auto'></div></td>
+                            <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
                         </tr>
                         <tr>
-                            <td className='td1'>Professional logo</td>
+                            <td className='td1'>Professional logo
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
                             <td className='td2 bg-gray-100'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
                             <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
@@ -161,7 +180,9 @@ const Body = () => {
 
                         </tr>
                         <tr>
-                            <td className='td1'>Social media logo files</td>
+                            <td className='td1'>Social media logo files
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'><FontAwesomeIcon icon={faCheck} className='m-auto' /></td>
                             <td className='td2 bg-gray-100'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
                             <td className='td2'><div className='h-[2px] w-4 bg-gray-200 m-auto'></div></td>
@@ -169,7 +190,9 @@ const Body = () => {
 
                         </tr>
                         <tr>
-                            <td className='td1'>Customer care</td>
+                            <td className='td1'>Customer care
+                            <IoInformationCircleOutline className='inline-block absolute right-3 text-xl text-gray-500'/>
+</td>
                             <td className='td2'>Priority customer care</td>
                             <td className='td2 bg-gray-100'>24/7 customer care</td>
                             <td className='td2'>24/7 customer care</td>
