@@ -1,0 +1,15 @@
+/* This separate Css file is for my conveniance of responsiveness of the Webpage */
+
+@media (max-width: 1039px) {
+  #one {
+    flex-direction: column;
+    width: 100%;                                    
+  }
+  #three {
+    flex-direction: column;
+    align-items: center;
+  }
+  #lines {
+    visibility: hidden;
+  }
+}

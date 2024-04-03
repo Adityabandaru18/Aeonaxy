@@ -2,3 +2,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+.td{
+    @apply border p-10 border-gray-200 text-center;
+}
+.td1{
+    @apply border pr-28 p-4  border-gray-200;
+}
+.td2{
+    @apply border text-center m-auto  border-gray-200;
+}
